@@ -38,7 +38,8 @@ void render() {
     };
 
     // Dibujar polígonos
-    drawPolygon(polygon3, red, white);
+    drawPolygon(polygon4, green, white);
+    drawPolygon(polygon5, clearColor, clearColor);
 
     renderBuffer();
 }
