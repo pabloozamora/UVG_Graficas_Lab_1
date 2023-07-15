@@ -173,7 +173,7 @@ void renderBuffer()
     // Rellenar fila con píxeles
     int paddingSize = (4 - (framebufferWidth * 3) % 4) % 4; // Relleno para asegurar que cada fila sea múltiplo de 4 bytes
     char paddingBytes[3] = {0, 0, 0};            // Bytes de relleno
-    for (int y = framebufferHeight - 1; y >= 0; --y)
+    for (int y = 0; y < framebufferHeight; ++y)
     {
         for (int x = 0; x < framebufferWidth; ++x)
         {
