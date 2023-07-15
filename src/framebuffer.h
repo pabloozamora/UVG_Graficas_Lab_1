@@ -13,7 +13,7 @@
 #include <stack>
 
 const int framebufferWidth = 1000;
-const int framebufferHeight = 1000;
+const int framebufferHeight = 450;
 
 std::vector<Color> framebuffer;
 
@@ -120,7 +120,7 @@ void fillPolygon(Vertex2 start, Color fillColor, Color currentColor)
     }
 }
 
-void drawPoligon(std::vector<Vertex2> points, Color fillColor, Color currentColor)
+void drawPolygon(std::vector<Vertex2> points, Color fillColor, Color currentColor)
 {
     for (int i = 0; i < points.size(); i++)
     {
