@@ -37,8 +37,8 @@ void render() {
 
     // Dibujar polígonos
     drawPolygon(polygon1, yellow, white);
-    
     drawPolygon(polygon2, blue, white);
+    drawPolygon(polygon3, red, white);
 
     renderBuffer();
 }
