@@ -39,6 +39,8 @@ void render() {
     drawPolygon(polygon1, yellow, white);
     drawPolygon(polygon2, blue, white);
     drawPolygon(polygon3, red, white);
+    drawPolygon(polygon4, green, white);
+    drawPolygon(polygon5, clearColor, clearColor);
 
     renderBuffer();
 }
